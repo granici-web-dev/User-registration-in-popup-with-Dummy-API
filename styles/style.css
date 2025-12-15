@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+.containerTitle {
+  margin-bottom: 16px;
+}
+
+.registrationBtn {
+  padding: 8px 24px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.registrationBtn:hover {
+  background-color: #2c2c2c;
+}
+
+.modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modalInner {
+  background-color: #f4f3f3;
+  max-width: 450px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px 0px rgb(163, 162, 162);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.formRegistration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+  }
+}
+
+.closeBtn {
+  width: 24px;
+  cursor: pointer;
+}
+
+.termsLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0;
+
+  input {
+    width: auto;
+    margin-right: 8px;
+    margin-top: 0;
+  }
+}
+
+.registerFormButton{
+  background-color: #2c2c2c !important;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.registerFormButton:hover {
+  background-color: #000 !important;
+}

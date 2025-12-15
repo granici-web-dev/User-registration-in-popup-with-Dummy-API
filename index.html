@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="containerTitle">Registration form</h1>
+    <button class="registrationBtn">Register</button>
+  </div>
+
+  <div class="modal">
+    <div class="modalInner">
+      <div class="closeBtn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </div>
+      <form class="formRegistration">
+        <label class="usernameLabel">
+          Your username
+          <input type="text" class="usernameInput" name="username" placeholder="Your username" required>
+        </label>
+        <label class="emailLabel">
+          Your email
+          <input type="email" class="emailInput" name="email" placeholder="Your email" required>
+        </label>
+        <label class="passwordLabel">
+          Your password
+          <input type="password" class="passwordInput" name="password" placeholder="Your password" required>
+        </label>
+        <label class="confirmPasswordLabel">
+          Confirm your password
+          <input type="password" class="confirmPasswordInput" name="confirm password" placeholder="Confirm your password" required>
+        </label>
+        <label class="firstnameLabel">
+          Your firstname
+          <input type="text" class="firstnameInput" name="firstname" placeholder="Your firstname" required>
+        </label>
+        <label class="lastnameLabel">
+          Your lastname
+          <input type="text" class="lastnameInput" name="lastname" placeholder="Your lastname" required>
+        </label>
+        <label class="ageLabel">
+          Your age
+          <input type="number" class="ageInput" name="age" placeholder="Your age" required>
+        </label>
+        <div class="terms">
+          <label class="termsLabel">
+          <input type="checkbox" class="termsInput" name="terms" required>
+          I agree to the terms of use
+        </label>
+        </div>
+        <input type="submit" class="registerFormButton" value="Register">
+      </form>
+    </div>
+  </div>
+</body>
+<script src="/scripts/script.js"></script>
+</html>
