@@ -74,6 +74,7 @@ body {
     margin-top: 8px;
     border: 1px solid lightgrey;
     background-color: #fff;
+    margin-bottom: 4px;
   }
 }
 
@@ -119,3 +120,37 @@ body {
   color: #fff;
   background-color: #2c2c2c;
 }
+
+.errorMessage{
+  color: red;
+  margin-top: 4px;
+}
+
+.successMessage {
+  color: green;
+  margin-top: 4px;
+}
+
+.errorBorder{
+  border: 1px solid red !important;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #000;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

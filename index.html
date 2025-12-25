@@ -12,6 +12,8 @@
     <button class="registrationBtn">Register</button>
   </div>
 
+
+
   <div class="modal hiddenModal">
     <div class="modalInner">
       <div class="closeBtn">
@@ -26,7 +28,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
       </div>
+      
       <form class="formRegistration">
+        <span class="loader"></span>
         <label class="usernameLabel">
           Your username
           <input type="text" class="usernameInput" name="username" placeholder="Your username" required>
@@ -41,15 +45,15 @@
         </label>
         <label class="confirmPasswordLabel">
           Confirm your password
-          <input type="password" class="confirmPasswordInput" name="confirm password" placeholder="Confirm your password" required>
+          <input type="password" class="confirmPasswordInput" name="confirm_password" placeholder="Confirm your password" required>
         </label>
         <label class="firstnameLabel">
           Your firstname
-          <input type="text" class="firstnameInput" name="firstname" placeholder="Your firstname" required>
+          <input type="text" class="firstnameInput" name="firstName" placeholder="Your firstname" required>
         </label>
         <label class="lastnameLabel">
           Your lastname
-          <input type="text" class="lastnameInput" name="lastname" placeholder="Your lastname" required>
+          <input type="text" class="lastnameInput" name="lastName" placeholder="Your lastname" required>
         </label>
         <label class="ageLabel">
           Your age
